@@ -1,0 +1,21 @@
+.map-container {
+  height: 300px;
+}
+
+.sidebarStyle {
+  margin-bottom: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+
+  font-weight: bold;
+}
+
+.marker {
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  cursor: pointer;
+}
