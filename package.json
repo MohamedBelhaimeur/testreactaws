@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.3",
   "engines": {
-    "yarn": "1.22.11",
+    "yarn": "1.22.0",
     "npm": "7.8.0"
   },
   "private": true,
