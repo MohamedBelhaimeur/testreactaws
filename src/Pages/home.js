@@ -59,6 +59,7 @@ function Home() {
               <Microphone pushFile={null} />
               <br /> <br />{" "}
             </div>
+            <br></br> <br></br>
             <div className="row ">
               <Outlet />
             </div>{" "}

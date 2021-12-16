@@ -89,14 +89,10 @@ export default function CreatePlaylist(props) {
 
   return (
     <>
-      <div
-        className="container d-flex justify-content-center"
-        style={{ marginBottom: "35px" }}
-      >
-        <IconButton onClick={handleClickOpen}>
-          <PlaylistAddIcon className={classes.icon} />
-        </IconButton>
-      </div>
+      <IconButton onClick={handleClickOpen}>
+        <PlaylistAddIcon className={classes.icon} />
+      </IconButton>
+
       <Dialog fullWidth maxWidth="lg" open={open} onClose={handleCancel}>
         <DialogTitle className={classes.flex}>Creer une Playlist</DialogTitle>
         <DialogContent>
