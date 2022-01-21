@@ -14,8 +14,11 @@ import { Input } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 
 import { getPostsUser } from "../../actions/post.actions";
-import { create_playlist } from "../../actions/playlist.actions";
-import { findallForUser } from "../../actions/playlist.actions";
+import {
+  create_playlist,
+  findallForUser,
+} from "../../actions/playlist.actions";
+
 const useStyles = makeStyles((theme) => ({
   icon: {
     height: 38,
